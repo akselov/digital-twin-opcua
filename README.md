@@ -6,4 +6,7 @@ Simple GUI for launching Visual Components 4.0 OPC UA connection, displaying rob
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/gui_full.png)
 
+## Visual Components 4.0 connection
+Example of a combined KUKAVARPROXY (KVP) and RSI connection in Visual Components 4.0.
+
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Connected_Variables_VC4.0.png)
