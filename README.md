@@ -1,4 +1,4 @@
-# Digital Twin with OPC-UA
+# Digital Twin with OPC UA
 This repository contains files used in the development of a digital twin for a robot cell at NTNU with the use of Visual Components 4.0 and OPC UA.
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
