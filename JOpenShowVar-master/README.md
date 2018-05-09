@@ -178,4 +178,6 @@ KUKAVARPROXY contains the files that must be copied over to the WinXP environmen
 
 Acknowledgements
 ==============
+The JOpenShowVar-master repository was originally posted by the Mechatronics Lab at Ålesund University College (https://github.com/aauc-mechlab/JOpenShowVar). The version posted in this project was aquired from this site 09.05.2018.
+
 A big thanks to Massimiliano Fago, which is the original author of KUKAVARPROXY and the C++ project OpenShowVar (http://sourceforge.net/projects/openshowvar/)
