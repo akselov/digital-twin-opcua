@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">JOpenShowVar-android</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+    
+    <string name="xUp_button">X_UP</string>
+    <string name="xDown_button">X_DOWN</string>
+    <string name="yUp_button">Y_UP</string>
+    <string name="yDown_button">Y_DOWN</string>
+    <string name="zUp_button">Z_UP</string>
+    <string name="zDown_button">Z_DOWN</string>
+    
+    <string name="OV_PRO">$OV_PRO = </string>
+    
+    <string name ="connect_toggleButton">Connect</string>
+
+</resources>

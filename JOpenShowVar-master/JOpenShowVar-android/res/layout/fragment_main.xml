@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="no.hials.crosscom.android.MainActivity$PlaceholderFragment" >
+    
+    
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekBar1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:onClick="connect"
+        android:text="@string/connect_toggleButton" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toggleButton1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="37dp"
+        android:max="100"
+        android:progress="1" />
+
+    <TextView
+        android:id="@+id/xLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/x"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/yLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/xLabel"
+        android:layout_below="@+id/xLabel"
+        android:layout_marginTop="30dp"
+        android:text="@string/y"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/zLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/yLabel"
+        android:layout_below="@+id/yLabel"
+        android:layout_marginTop="30dp"
+        android:text="@string/z"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    
+
+     <Button
+         android:id="@+id/xDecButton"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/xLabel"
+         android:layout_alignBottom="@+id/xLabel"
+         android:layout_toLeftOf="@+id/xLabel"
+         android:layout_marginRight="20dp"
+         android:text="@string/decrement" />
+
+     <Button
+         android:id="@+id/xIncButton"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/xDecButton"
+         android:layout_alignBottom="@+id/xDecButton"
+         android:layout_toLeftOf="@+id/xDecButton"
+         android:layout_marginRight="10dp"
+         android:text="@string/increment" />
+     
+      <Button
+         android:id="@+id/yDecButton"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/yLabel"
+         android:layout_alignBottom="@+id/yLabel"
+         android:layout_toLeftOf="@+id/yLabel"
+         android:layout_marginRight="20dp"
+         android:text="@string/decrement" />
+
+     <Button
+         android:id="@+id/yIncButton"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/yDecButton"
+         android:layout_alignBottom="@+id/yDecButton"
+         android:layout_toLeftOf="@+id/yDecButton"
+          android:layout_marginRight="10dp"
+         android:text="@string/increment" />
+     
+      <Button
+         android:id="@+id/zDecButton"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/zLabel"
+         android:layout_alignBottom="@+id/zLabel"
+         android:layout_toLeftOf="@+id/zLabel"
+          android:layout_marginRight="20dp"
+         android:text="@string/decrement" />
+
+     <Button
+         android:id="@+id/zIncButton"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/zDecButton"
+         android:layout_alignBottom="@+id/zDecButton"
+         android:layout_toLeftOf="@+id/zDecButton"
+          android:layout_marginRight="10dp"
+         android:text="@string/increment" />
+
+     <TextView
+         android:id="@+id/OV_PRO_label"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/seekBar1"
+         android:layout_alignLeft="@+id/seekBar1"
+         android:layout_marginBottom="14dp"
+         android:text="@string/OV_PRO"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+     <TextView
+         android:id="@+id/OV_PRO_value"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/OV_PRO_label"
+         android:layout_alignBottom="@+id/OV_PRO_label"
+         android:layout_toLeftOf="@+id/zIncButton"
+         android:text=""
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
