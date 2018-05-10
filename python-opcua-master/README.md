@@ -136,5 +136,5 @@ coverage html
 firefox htmlcov/index.html
 
 # Acknowledgements
-==============
+
 The python-opcua-master repository was originally posted by oroulet (https://github.com/oroulet) and Alexander Rykovanov (https://github.com/treww) at https://github.com/FreeOpcUa/python-opcua. The version posted in this project was aquired from this site 10.05.2018.
