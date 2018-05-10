@@ -44,3 +44,6 @@ TODO (listed after priority):
 
 To update to the latest release run: `pip install opcua-client --upgrade`
 
+# Acknowledgements
+
+The opcua-client-gui-master repository was originally posted by oroulet (https://github.com/oroulet) and Alexander Rykovanov (https://github.com/treww) at https://github.com/FreeOpcUa/opcua-client-gui. The version posted in this project was aquired from this site 10.05.2018.
