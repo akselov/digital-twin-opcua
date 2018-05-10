@@ -39,3 +39,7 @@ In order to establish an Ethernet (TCP/IP) connection, you first need to run kuk
 * https://github.com/aauc-mechlab/jopenshowvar/
 * http://filipposanfilippo.inspitivity.com/publications/jopenshowvar-an-open-source-cross-platform-communication-interface-to-kuka-robots.pdf
 * https://www.robodk.com/forum/attachment.php?aid=4
+
+## Acknowledgements
+
+The kukavarproxy-msg-format-master repository was originally posted by Ahmad Saeed (https://github.com/ahmad-saeed) at https://github.com/ahmad-saeed/kukavarproxy-msg-format. The version posted in this project was aquired from this site 10.05.2018.
