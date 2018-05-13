@@ -1,6 +1,6 @@
 '''
 Source code for an OPC UA server able to extract axis variables 
-from a KUKA KR C4 robot controller and broadcast them to an
+from a KUKA KR C4 robot controller and send them to an
 OPC UA client.
 
 Based on work by:
