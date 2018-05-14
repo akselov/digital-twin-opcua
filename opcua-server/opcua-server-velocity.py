@@ -3,7 +3,7 @@ Source code for an OPC UA server able to extract axis variables
 from a KUKA KR C4 robot controller and send them to an
 OPC UA client. The server also extracts information about the 
 current velocity of each of the motors controlling the different 
-axis and does a real-time plot of all the values.
+KUKA robot axis and does a real-time plot of all the values.
 
 Based on work by:
 - Massimiliano Fago (https://sourceforge.net/projects/openshowvar)
