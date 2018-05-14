@@ -96,7 +96,7 @@ class KUKA(object):
 
     # Close socket
     def disconnect (self):
-            client.close()                                      # CLose socket
+            client.close()
 
     # In case of error
     def error_list (self, ID):
