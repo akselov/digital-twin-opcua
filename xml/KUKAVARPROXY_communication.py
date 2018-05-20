@@ -1,7 +1,7 @@
 '''
 Source code for a KUKAVARPROXY communication module being used
 by the opcua-server-xml.py for communication with a KUKA KR C4
-robot controller. The module extract axis variables from the 
+robot controller. The module extracts axis variables from the 
 robot controller.
 
 - Massimiliano Fago (https://sourceforge.net/projects/openshowvar)
