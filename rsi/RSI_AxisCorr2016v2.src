@@ -1,0 +1,55 @@
+&ACCESS RVP
+&REL 6
+&PARAM TEMPLATE = C:\KRC\Roboter\Template\vorgabe
+&PARAM EDITMASK = *
+DEF RSI_AxisCorr2016v2( )
+; =============================================
+; 
+; RSI EXAMPLE: ETHERNET communication
+; Realtime UDP data exchange with server application
+;
+; =============================================
+
+; Declaration of KRL variables
+DECL INT ret	; Return value for RSI commands
+DECL INT CONTID	; ContainerID
+
+;FOLD INI
+  ;FOLD BASISTECH INI
+    GLOBAL INTERRUPT DECL 3 WHEN \$STOPMESS==TRUE DO IR_STOPM ( )
+    INTERRUPT ON 3 
+    BAS (#INITMOV,0 )
+  ;ENDFOLD (BASISTECH INI)
+  ;FOLD USER INI
+    ;Make your modifications here
+
+  ;ENDFOLD (USER INI)
+;ENDFOLD (INI)
+
+; Move to start position
+PTP {A1 0, A2 -90, A3 90, A4 0, A5 90, A6 0}
+
+; Create RSI Context 
+ret = RSI_CREATE("RSIAxisCorrTest2016v2.rsi",CONTID,TRUE)
+IF (ret <> RSIOK) THEN
+  HALT
+ENDIF
+
+; Start RSI execution
+ret = RSI_ON(#ABSOLUTE)
+IF (ret <> RSIOK) THEN
+  HALT
+ENDIF
+
+; Sensor guided movement
+RSI_MOVECORR()
+
+; Turn off RSI 
+ret = RSI_OFF()
+IF (ret <> RSIOK) THEN
+  HALT
+ENDIF
+
+PTP {A1 0, A2 -90, A3 90, A4 0, A5 90, A6 0}
+
+END
