@@ -17,7 +17,11 @@ Example of a combined KUKAVARPROXY (KVP) and RSI connection in Visual Components
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Connected_Variables_VC4.0.png)
 
+## Monitoring robot from VC 4.0
+
+
 ## Controlling robot from VC 4.0
+
 
 ## Acknowledgments
 - OpenShowVar
