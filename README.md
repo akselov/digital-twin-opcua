@@ -3,8 +3,8 @@ This repository contains files used in the development of a digital twin for a r
 
 ## Result
 The system currently cointains the following functionality:
-* 
-* 
+* Functioning..
+* This works..
 
 ## About Project
 This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
