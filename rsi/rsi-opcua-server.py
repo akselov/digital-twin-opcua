@@ -22,10 +22,11 @@ from opcua import ua, Server
 tiden = time_keeper.time_keeper()
 
 def simple_joint_correction_command(from_kuka):
-    #Correction example (not used)
-	A1 = 10.0 * numpy.sin(tiden.get() / 10.0)
+    	# Axis Correction example (not used)
+	#A1 = 10.0 * numpy.sin(tiden.get() / 10.0)
     
 	joint_desired = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+	#joint_desired = [A1, 0.0, 0.0, 0.0, 0.0, 0.0]
 	return command.joint_correction_command(from_kuka, joint_desired)
 
 if __name__ == "__main__":
@@ -73,8 +74,6 @@ if __name__ == "__main__":
 	try:
 		while True:
 			# Buffer size is 1024 bytes
-
-			#time.sleep(0.1)
 			received_data, socket_of_krc = sock.recvfrom(BUFFER_SIZE)
 			received_data = received_data.decode("utf-8") 
 			output_elements = received_data.split(' ')
