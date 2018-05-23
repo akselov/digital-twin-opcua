@@ -6,6 +6,9 @@ The system currently cointains the following functionality:
 * Functioning..
 * This works..
 
+## Needs improvement
+* This needs improvement
+
 ## About Project
 This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
 
