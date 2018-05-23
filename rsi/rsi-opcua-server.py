@@ -10,6 +10,9 @@ Based on work by:
 
 Author: Aksel Oevern
 NTNU 2018
+
+To be done:
+- Connection with rsi breaks down when joint corrections are to big
 '''
 
 import socket
