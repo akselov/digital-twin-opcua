@@ -82,8 +82,6 @@ if __name__ == "__main__":
 
 			for raw_axis in raw_axis_variables:
 				axis_variables.append(raw_axis.split('"')[1])
-
-			print(axis_variables)
  
 			A1.set_value(axis_variables[0])
 			A2.set_value(axis_variables[1])
