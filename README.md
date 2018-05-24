@@ -8,6 +8,7 @@ The system currently cointains the following functionality:
 
 ## Needs improvement
 * This needs improvement
+* RSI configuration
 
 ## About Project
 This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
