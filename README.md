@@ -31,12 +31,13 @@ Example of a combined KUKAVARPROXY (KVP) and RSI connection in Visual Components
 ### KUKAVARPROXY
 
 ### RSI
+Confirguration with use of kinematicks file
 
 ## Monitoring robot from VC 4.0
 
 
 ## Controlling robot from VC 4.0
-
+Through KVP
 
 ## Acknowledgments
 - OpenShowVar
