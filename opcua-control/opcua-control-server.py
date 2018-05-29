@@ -10,12 +10,12 @@ Based on work by:
 - Ahmad Saeed (https://github.com/akselov/kukavarproxy-msg-format)
 - Olivier Roulet-Dubonnet (https://github.com/FreeOpcUa)
 
-Author: Aksel Oevern
-NTNU 2018
-
 To be done:
 - Custom setup of axis variables from OPC UA object
 - Include RSI control module
+
+Author: Aksel Oevern
+NTNU 2018
 '''
 
 import sys
