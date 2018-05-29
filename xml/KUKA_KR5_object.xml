@@ -1,0 +1,139 @@
+<!--
+Source code for a XML file including information about
+variables relevant for a KUKA KR 5 arc robot.
+The file is made with use of the FreeOpcUa modeler made by 
+Olivier Roulet-Dubonnet, found at: 
+https://github.com/FreeOpcUa/opcua-modeler
+Author: Aksel Oevern
+NTNU 2018
+-->
+
+<?xml version='1.0' encoding='utf-8'?>
+<UANodeSet xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamespaceUris />
+  <Aliases>
+    <Alias Alias="Boolean">i=1</Alias>
+    <Alias Alias="Double">i=11</Alias>
+    <Alias Alias="String">i=12</Alias>
+    <Alias Alias="Organizes">i=35</Alias>
+    <Alias Alias="HasTypeDefinition">i=40</Alias>
+    <Alias Alias="HasProperty">i=46</Alias>
+    <Alias Alias="HasComponent">i=47</Alias>
+  </Aliases>
+  <UAObject BrowseName="0:KUKA_KR16_2" NodeId="i=40001" ParentNodeId="i=85">
+    <DisplayName>KUKA_KR16_2</DisplayName>
+    <Description>The base type for all object nodes.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="Organizes">i=85</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasProperty">i=40006</Reference>
+      <Reference ReferenceType="HasProperty">i=40007</Reference>
+      <Reference ReferenceType="HasComponent">i=40008</Reference>
+      <Reference ReferenceType="HasComponent">i=40009</Reference>
+      <Reference ReferenceType="HasComponent">i=40010</Reference>
+      <Reference ReferenceType="HasComponent">i=40011</Reference>
+      <Reference ReferenceType="HasComponent">i=40012</Reference>
+      <Reference ReferenceType="HasComponent">i=40013</Reference>
+      <Reference ReferenceType="HasProperty">i=40016</Reference>
+    </References>
+  </UAObject>
+  <UAVariable BrowseName="0:KUKAVARPROXY" DataType="Boolean" NodeId="i=40006" ParentNodeId="i=40001">
+    <DisplayName>KUKAVARPROXY</DisplayName>
+    <Description>KUKAVARPROXY</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasProperty">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+    </References>
+    <Value>
+      <uax:Boolean>false</uax:Boolean>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="0:RSI" DataType="Boolean" NodeId="i=40007" ParentNodeId="i=40001">
+    <DisplayName>RSI</DisplayName>
+    <Description>RSI</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasProperty">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+    </References>
+    <Value>
+      <uax:Boolean>false</uax:Boolean>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="0:A1" DataType="Double" NodeId="i=40008" ParentNodeId="i=40001">
+    <DisplayName>A1</DisplayName>
+    <Description>A1</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasComponent">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Value>
+      <uax:Double>9.99</uax:Double>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="0:A2" DataType="Double" NodeId="i=40009" ParentNodeId="i=40001">
+    <DisplayName>A2</DisplayName>
+    <Description>A2</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasComponent">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Value>
+      <uax:Double>9.99</uax:Double>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="0:A3" DataType="Double" NodeId="i=40010" ParentNodeId="i=40001">
+    <DisplayName>A3</DisplayName>
+    <Description>A3</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasComponent">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Value>
+      <uax:Double>9.99</uax:Double>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="0:A4" DataType="Double" NodeId="i=40011" ParentNodeId="i=40001">
+    <DisplayName>A4</DisplayName>
+    <Description>A4</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasComponent">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Value>
+      <uax:Double>9.99</uax:Double>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="0:A5" DataType="Double" NodeId="i=40012" ParentNodeId="i=40001">
+    <DisplayName>A5</DisplayName>
+    <Description>A5</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasComponent">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Value>
+      <uax:Double>9.99</uax:Double>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="0:A6" DataType="Double" NodeId="i=40013" ParentNodeId="i=40001">
+    <DisplayName>A6</DisplayName>
+    <Description>A6</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasComponent">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Value>
+      <uax:Double>9.99</uax:Double>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="0:IP" DataType="String" NodeId="i=40016" ParentNodeId="i=40001">
+    <DisplayName>IP</DisplayName>
+    <Description>IP</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasProperty">i=40001</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+    </References>
+    <Value>
+      <uax:String>192.168.250.5</uax:String>
+    </Value>
+  </UAVariable>
+</UANodeSet>
