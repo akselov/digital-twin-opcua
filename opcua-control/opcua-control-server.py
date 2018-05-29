@@ -1,6 +1,6 @@
 '''
 Source code for an OPC UA server able to create a custom OPC UA
-object from specifications in a XML-file, estract axis variables 
+object from specifications in a XML-file, extract axis variables 
 from an OPC UA client and control a KUKA robot by its axis values.
 
 Based on work by:
