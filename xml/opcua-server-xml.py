@@ -10,6 +10,9 @@ Based on work by:
 - Ahmad Saeed (https://github.com/akselov/kukavarproxy-msg-format)
 - Olivier Roulet-Dubonnet (https://github.com/FreeOpcUa)
 
+To be done:
+- Include RSI control module
+
 Author: Aksel Oevern
 NTNU 2018
 '''
