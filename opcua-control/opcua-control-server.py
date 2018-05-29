@@ -15,6 +15,7 @@ NTNU 2018
 
 To be done:
 - Custom setup of axis variables from OPC UA object
+- Include RSI control module
 '''
 
 import sys
