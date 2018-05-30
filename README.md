@@ -6,6 +6,30 @@ The system currently cointains the following functionality:
 * Functioning..
 * This works..
 
+    \item Programming, planning and control in VC 4.0
+    \item Mirror movements of physical robot cell in real-time using KVP, \newline average read time \textbf{8.75ms}
+    \item Mirror movements of physical robot cell in real-time using RSI, \newline average read time \textbf{4.00ms}
+    
+    \item Plot sensor data for every KUKA robot:
+    \begin{itemize}
+        \item Velocity of motor controlling axis X
+        \item Torque on motor controlling axis X
+        \item Current to motor controlling axis X
+        \item Temperature of motor controlling axis X
+    \end{itemize}
+    
+    \item Write sensor data for every KUKA robot to .csv files:
+    \begin{itemize}
+        \item Velocity to file
+        \item Torque to file
+        \item Current to file
+        \item Temperature to file
+    \end{itemize}
+    
+    \item GUI for easier access to functionalities
+    \item Extraction of physical robot properties through XML 
+    \item Controlling physical robots from VC 4.0 using KVP
+
 ## Needs improvement
 * This needs improvement
 * RSI configuration
