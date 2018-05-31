@@ -5,6 +5,7 @@ This repository contains files used in the development of a digital twin for a r
 The system currently cointains the following functionality:
 * Functioning..
 * This works..
+* List from project report
 
     \item Programming, planning and control in VC 4.0
     \item Mirror movements of physical robot cell in real-time using KVP, \newline average read time \textbf{8.75ms}
@@ -35,6 +36,7 @@ The system currently cointains the following functionality:
 * RSI configuration
 * Object setup in VC 4.0
 * RSI joint rotations
+* Further work in project report
 
 ## About Project
 This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
