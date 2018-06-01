@@ -37,6 +37,7 @@ The system currently cointains the following functionality:
 * Object setup in VC 4.0
 * RSI joint rotations
 * Further work in project report
+* Improving control server for no lag
 
 ## About Project
 This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
@@ -62,7 +63,7 @@ Example of a combined KUKAVARPROXY (KVP) and RSI connection in Visual Components
 Confirguration with use of kinematicks file
 
 ## Monitoring robot from VC 4.0
-
+Through KVP and RSI
 
 ## Controlling robot from VC 4.0
 Through KVP
