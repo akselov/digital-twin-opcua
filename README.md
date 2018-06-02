@@ -6,6 +6,9 @@ The system currently cointains the following functionality:
 * Functioning..
 * This works..
 * List from project report
+* Conclusion for this project
+
+Use following:
 
     \item Programming, planning and control in VC 4.0
     \item Mirror movements of physical robot cell in real-time using KVP, \newline average read time \textbf{8.75ms}
