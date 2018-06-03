@@ -22,6 +22,8 @@ average read time 8.75ms
 7. Extraction of physical robot properties through XML
 8. Controlling physical robots from VC 4.0 using KVP
 
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 ## Needs improvement
 * This needs improvement
 * RSI configuration
