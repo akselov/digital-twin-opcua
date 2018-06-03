@@ -16,7 +16,7 @@ The system currently cointains the following functionality:
    * Torque to file
    * Current to file
    * Temperature to file
-6. GUI for easier access to functionalities
+6. GUI for access to functionalities
 7. Extraction of physical robot properties through XML
 8. Controlling physical robots from VC 4.0 using KVP
 
