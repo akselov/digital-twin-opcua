@@ -5,9 +5,9 @@ This repository contains files used in the development of a digital twin for a r
 The system currently cointains the following functionality:
 1. Programming, planning and control in VC 4.0
 2. Mirror movements of physical robot cell in real-time using KUKAVARPROXY (KVP), 
-average read time 8.75ms
+average read time **8.75ms**
 3. Mirror movements of physical robot cell in real-time using RSI, 
-...average read time \textbf{4.00ms}
+...average read time **4.00ms**
 4. Plot sensor data for every KUKA robot:
 ..* Velocity of motor controlling axis X
 ..* Torque on motor controlling axis X
@@ -20,7 +20,7 @@ average read time 8.75ms
 ..* Temperature to file
 6. GUI for easier access to functionalities
 7. Extraction of physical robot properties through XML
-8. Controlling physical robots from VC 4.0 using KVP
+- [x] Controlling physical robots from VC 4.0 using KVP
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
