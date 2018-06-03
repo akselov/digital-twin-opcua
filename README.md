@@ -26,12 +26,12 @@ It was done a fixed case to illustrate some of the functionalities of the DTw: <
 https://youtu.be/xlQhQPmJwlA
 
 ## Needs improvement
-* This needs improvement
-* RSI configuration
-* Object setup in VC 4.0
-* RSI joint rotations
-* Further work in project report
-* Improving control server for no lag
+- [ ] This needs improvement
+- [ ] RSI configuration
+- [ ] Object setup in VC 4.0
+- [ ] RSI joint rotations
+- [ ] Further work in project report
+- [ ] Improving control server for no lag
 
 ## About Project
 This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
