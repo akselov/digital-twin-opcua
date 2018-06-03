@@ -21,8 +21,6 @@ The system currently cointains the following functionality:
 8. Controlling physical robots from VC 4.0 using KVP
 
 It was done a fixed case to illustrate some of the functionalities of the DTw:
-[![Video: Fixed Case](https://youtu.be/xlQhQPmJwlA.jpg)](https://youtu.be/xlQhQPmJwlA)
-
 https://youtu.be/xlQhQPmJwlA
 
 ## Needs improvement
