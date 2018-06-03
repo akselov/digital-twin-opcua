@@ -33,6 +33,8 @@ https://youtu.be/xlQhQPmJwlA
 - [ ] Further work in project report
 - [ ] Improving control server for no lag
 
+---
+
 ## About Project
 This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
 
