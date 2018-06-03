@@ -22,7 +22,7 @@ average read time **4.00ms**
 7. Extraction of physical robot properties through XML
 8. Controlling physical robots from VC 4.0 using KVP
 
-It was done a fixed case to illustrate some of the functionalities of the DTw: <br /> 
+It was done a fixed case with camera tracking to illustrate some of the functionalities of the DTw: <br /> 
 https://youtu.be/xlQhQPmJwlA
 
 ## Needs improvement
