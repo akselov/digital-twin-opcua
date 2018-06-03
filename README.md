@@ -3,7 +3,7 @@ This repository contains files used in the development of a digital twin for a r
 
 ## Result
 The system currently cointains the following functionality:
-1. Programming, planning and control in VC 4.0
+**1.** Programming, planning and control in VC 4.0
 2. Mirror movements of physical robot cell in real-time using KUKAVARPROXY (KVP), average read time **8.75ms**
 3. Mirror movements of physical robot cell in real-time using RSI, average read time **4.00ms**
 4. Plot sensor data for every KUKA robot:
