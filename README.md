@@ -7,6 +7,7 @@ The system currently cointains the following functionality:
 * This works..
 * List from project report
 * Conclusion for this project
+* RSI
 
 Use following:
 
