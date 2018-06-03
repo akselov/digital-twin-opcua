@@ -1,39 +1,26 @@
 # Digital Twin with OPC UA
-This repository contains files used in the development of a digital twin for a robot cell at NTNU with the use of Visual Components 4.0 and OPC UA.
+This repository contains files used in the development of a digital twin for a robot cell at NTNU with the use of Visual Components 4.0 (VC 4.0) and OPC UA.
 
 ## Result
 The system currently cointains the following functionality:
-* Functioning..
-* This works..
-* List from project report
-* Conclusion for this project
-* RSI
-
-Use following:
-
-    \item Programming, planning and control in VC 4.0
-    \item Mirror movements of physical robot cell in real-time using KVP, \newline average read time \textbf{8.75ms}
-    \item Mirror movements of physical robot cell in real-time using RSI, \newline average read time \textbf{4.00ms}
-    
-    \item Plot sensor data for every KUKA robot:
-    \begin{itemize}
-        \item Velocity of motor controlling axis X
-        \item Torque on motor controlling axis X
-        \item Current to motor controlling axis X
-        \item Temperature of motor controlling axis X
-    \end{itemize}
-    
-    \item Write sensor data for every KUKA robot to .csv files:
-    \begin{itemize}
-        \item Velocity to file
-        \item Torque to file
-        \item Current to file
-        \item Temperature to file
-    \end{itemize}
-    
-    \item GUI for easier access to functionalities
-    \item Extraction of physical robot properties through XML 
-    \item Controlling physical robots from VC 4.0 using KVP
+1. Programming, planning and control in VC 4.0
+2. Mirror movements of physical robot cell in real-time using KUKAVARPROXY (KVP), 
+...average read time 8.75ms
+3. Mirror movements of physical robot cell in real-time using RSI, 
+...average read time \textbf{4.00ms}
+4. Plot sensor data for every KUKA robot:
+..* Velocity of motor controlling axis X
+..* Torque on motor controlling axis X
+..* Current to motor controlling axis X
+..* Temperature of motor controlling axis X
+5. Write sensor data for every KUKA robot to .csv files:
+..* Velocity to file
+..* Torque to file
+..* Current to file
+..* Temperature to file
+6. GUI for easier access to functionalities
+7. Extraction of physical robot properties through XML
+8. Controlling physical robots from VC 4.0 using KVP
 
 ## Needs improvement
 * This needs improvement
