@@ -20,9 +20,7 @@ The system currently cointains the following functionality:
 7. Extraction of physical robot properties through XML
 8. Controlling physical robots from VC 4.0 using KVP
 
-It was done a fixed case to illustrate some of the functionalities of the DTw:
-
-https://youtu.be/xlQhQPmJwlA
+It was done a fixed case to illustrate some of the functionalities of the DTw:  https://youtu.be/xlQhQPmJwlA
 
 ## Needs improvement
 * This needs improvement
