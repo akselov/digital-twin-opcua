@@ -20,7 +20,7 @@ average read time **8.75ms**
 ..* Temperature to file
 6. GUI for easier access to functionalities
 7. Extraction of physical robot properties through XML
-   - [x] Controlling physical robots from VC 4.0 using KVP
+  - [x] Controlling physical robots from VC 4.0 using KVP
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
