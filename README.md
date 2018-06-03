@@ -8,17 +8,17 @@ The system currently cointains the following functionality:
 3. Mirror movements of physical robot cell in real-time using RSI, average read time **4.00ms**
 4. Plot sensor data for every KUKA robot:
    * Velocity of motor controlling axis X
-  * Torque on motor controlling axis X
-..* Current to motor controlling axis X
-..* Temperature of motor controlling axis X
+   * Torque on motor controlling axis X
+   * Current to motor controlling axis X
+   * Temperature of motor controlling axis X
 5. Write sensor data for every KUKA robot to .csv files:
-..* Velocity to file
-..* Torque to file
-..* Current to file
-..* Temperature to file
+   * Velocity to file
+   * Torque to file
+   * Current to file
+   * Temperature to file
 6. GUI for easier access to functionalities
 7. Extraction of physical robot properties through XML
-  - [x] Controlling physical robots from VC 4.0 using KVP
+8. Controlling physical robots from VC 4.0 using KVP
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
