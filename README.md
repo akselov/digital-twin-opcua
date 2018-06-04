@@ -41,6 +41,10 @@ This project was initited by the Norwegian Univeristy of Science and Technology 
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
 
+## Communication
+
+![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/InformationFlow.png)
+
 ## Python GUI
 Simple GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sensor data and writing data to .csv files.
 
