@@ -38,11 +38,9 @@ https://youtu.be/xlQhQPmJwlA
 ## About Project
 This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
 
-- Present points
-
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
-
+Make smaller
 ## Communication
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/InformationFlow.png)
