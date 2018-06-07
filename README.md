@@ -58,6 +58,7 @@ Example of a combined KUKAVARPROXY (KVP) and RSI connection in Visual Components
 ## Communication modules
 
 ### KUKAVARPROXY
+Configuration, pic?
 
 ### RSI
 Confirguration with use of kinematicks file
