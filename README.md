@@ -26,12 +26,13 @@ It was done a fixed case with camera tracking to illustrate some of the function
 https://youtu.be/xlQhQPmJwlA
 
 ## Needs improvement
-- [ ] This needs improvement
-- [ ] RSI configuration
-- [ ] Object setup in VC 4.0
-- [ ] RSI joint rotations
-- [ ] Further work in project report
-- [ ] Improving control server for no lag
+- [ ] Gather all functionalities in one server
+- [ ] MDA approach to OPC UA information model design
+- [ ] Avoid middleware between PC running VC 4.0 and KR C4 robotcontrollers
+- [ ] Remove lag in control of robots through VC 4.0 using KUKAVARPROXY
+- [ ] Development of an OPC UA server controlling robots through VC 4.0 using RSI
+
+For more information about improvements, see project report
 
 ---
 
