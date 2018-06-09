@@ -59,7 +59,7 @@ In this task, implementation of a digital twin will be studied. A solution must 
 **f)** Try out the system in a fixed case. Evaluate the results.
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
-Figure 1
+**Figure 1**
 
 ## Abstract
 This project explores the term Industry 4.0 (I 4.0) and the use of Digital Twins (DTws) as an asset in this modern industrial revolution. A DTw can be described as a digital replica of a physical asset including data about this assets interaction with its environment. The goal of this project has been to develop a DTw for a robot cell at MTP Valgrinda, NTNU, and investigate what benefits could be gained from introducing this technology in this system and in the domain of automated robotic systems in general. 
@@ -81,7 +81,7 @@ It was concluded that OPC UA was a good solution for use in this DTw as it is po
 ## Communication
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/InformationFlow.png)
-Figure 2
+**Figure 2**
 
 ## Python GUI
 Simple GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sensor data and writing data to .csv files.
