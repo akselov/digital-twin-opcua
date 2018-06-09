@@ -29,7 +29,7 @@ https://youtu.be/xlQhQPmJwlA
 - [ ] Gather all functionalities in one server
 - [ ] MDA approach to OPC UA information model design
 - [ ] Avoid middleware between PC running VC 4.0 and KR C4 robotcontrollers
-- [ ] Remove lag in control of robots through VC 4.0 using KUKAVARPROXY
+- [ ] Remove lag in control of robots through VC 4.0 using KVP
 - [ ] Development of an OPC UA server controlling robots through VC 4.0 using RSI
 
 For more information about improvements, see project report
