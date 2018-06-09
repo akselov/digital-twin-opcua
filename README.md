@@ -68,6 +68,7 @@ Through KVP and RSI
 
 ## Controlling robot from VC 4.0
 Through KVP
+Could also be done thorugh RSI
 
 ## Acknowledgments
 - OpenShowVar
