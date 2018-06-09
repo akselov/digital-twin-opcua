@@ -93,6 +93,8 @@ Example of a combined KUKAVARPROXY and RSI communication in Visual Components 4.
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Connected_Variables_VC_4.0.png)
 
 ## Acknowledgments
-- OpenShowVar
-- Python-KVP
-- FreeOpcUa
+The software developed in this project is based on work by: 
+- Massimiliano Fago (https://sourceforge.net/projects/openshowvar)
+- Mechatronics Lab at AAlesund University College (https://github.com/aauc-mechlab/JOpenShowVar)
+- Ahmad Saeed (https://github.com/akselov/kukavarproxy-msg-format)
+- Olivier Roulet-Dubonnet (https://github.com/FreeOpcUa)
