@@ -78,8 +78,6 @@ It was concluded that OPC UA was a good solution for use in this DTw as it is po
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
 <br />**Figure 1: Robot cell, physical and digital**
 
-## Communication
-
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/InformationFlow.png)
 **Figure 2: Current communication architecture**
 
