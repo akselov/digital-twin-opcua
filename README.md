@@ -83,14 +83,15 @@ GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sens
 **Figure 3: GUI**
 
 ## Visual Components 4.0
-This library contains two files of the robot cell from VC 4.0
+This library contains two files of the robot cell from VC 4.0:
 1. Robot_Cell_MTP.vcmx, Version compatible with all servers developed, <br />
 including one example OPC UA client set up for controlling the KUKA KR 16-2 from VC 4.0
 2. Robot_Cell_MTP_case.vcmx, Version used in the fixed case, including two OPC UA clients set up. <br />
 One for controlling the KUKA KR 120 R2500 from VC 4.0, and one for extracting the axis variables <br />
 from the KUKA KR 16-2 and mirror its movements in VC 4.0.
 
-![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Connected_Variables_VC_4.0.png)
+![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/VCmodel.png)
+**Figure 4: Screenshot from VC 4.0**
 
 ## Acknowledgments
 The software developed in this project is based on work by: 
