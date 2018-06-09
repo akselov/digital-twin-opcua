@@ -59,10 +59,29 @@ In this task, implementation of a digital twin will be studied. A solution must 
 **f)** Try out the system in a fixed case. Evaluate the results.
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
+Figure 1
+
+## Abstract
+This project explores the term Industry 4.0 (I 4.0) and the use of Digital Twins (DTws) as an asset in this modern industrial revolution. A DTw can be described as a digital replica of a physical asset including data about this assets interaction with its environment. The goal of this project has been to develop a DTw for a robot cell at MTP Valgrinda, NTNU, and investigate what benefits could be gained from introducing this technology in this system and in the domain of automated robotic systems in general. 
+
+The DTw was developed using the OPC UA communication architecture. OPC UA is called the pioneer of I 4.0 as it is a communication architecture aiming at the standardization of communication in industry. Three different visualization software solutions were compared. It was concluded that Visual Components 4.0 (VC 4.0) was the strongest candidate for developing a visual representation of the robot cell. Using VC 4.0 and OPC UA a DTw of the robot cell was created. 
+
+Most of the work done in this project revolved around creating communication modules able to connect the physical robot cell to the virtual representation in VC 4.0, through the use of OPC UA. The result of this work is a communication library containing the virtual representation of the robot cell and the different communication modules able to give the DTw various functionalities. This library is made open-source and can be found in the project's GitHub repository at 
+
+https://github.com/akselov/digital-twin-opcua
+
+The software included in this library enables the DTw to do real-time mirroring of the physical robot's movements, plotting of robotic sensor data and controlling the robots from the DTw. A graphical user interface was developed to organize the functionalities. Figure 2 illustrates the current communication architecture for the DTw.
+
+The DTw was tested in a fixed case. This was a multi-robot case including mirroring of movements, plotting of sensor data and control from VC 4.0. It was made a video from the case which is published online at
+
+https://youtu.be/xlQhQPmJwlA
+
+It was concluded that OPC UA was a good solution for use in this DTw as it is possible to implement on any platform, and is enabling a more flexible and structured way of communicating than traditional communication software used in client/server based systems. The benefits found with the use of the DTw in this automated robotic system included visibility to operations and a better foundation for statistical analysis to predict future states and for optimizing characteristic parameters associated with the robot cell. Finally, it was concluded that the DTw act as a good foundation for managing a complex system, something that could be beneficial as this specific system is used in training and professional development at the institute.
 
 ## Communication
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/InformationFlow.png)
+Figure 2
 
 ## Python GUI
 Simple GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sensor data and writing data to .csv files.
