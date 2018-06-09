@@ -46,12 +46,12 @@ In this task, implementation of a digital twin will be studied. A solution must 
 
 **a)** Describe how a digital twin can be implemented using OPC UA.
 
-**b)** Examine the advantages and disadvantages of using Visual Components 4.0 or similar simulation software 
+**b)** Examine the advantages and disadvantages of using Visual Components 4.0 or similar simulation software <br />
    for the digital twin.
 
 **c)** Use Visual Components 4.0 or similar simulation software to model and simulate the robot cell at the institute.
 
-**d)** Examine the advantages and disadvantages of using KUKAVARPROXY and KUKA RSI Ethernet as middleware 
+**d)** Examine the advantages and disadvantages of using KUKAVARPROXY and KUKA RSI Ethernet as middleware <br />
    between the KUKA KR C4 robot controllers and the digital twin.
 
 **e)** Present a solution for a digital twin of the Institute's Robot Laboratory with use of OPC UA for communication.
