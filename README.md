@@ -44,17 +44,19 @@ OPC Unified Architecture (OPC UA) is a platform-independent protocol for machine
 
 In this task, implementation of a digital twin will be studied. A solution must be developed that provides seamless communication between robots, PLSs, and other relevant control systems that can be part of an industrial production system, linked to one digital representation of the system. The system must be tested at the institute Robot Laboratory.
 
-a) Describe how a digital twin can be implemented using OPC UA.
+**a)** Describe how a digital twin can be implemented using OPC UA.
 
-b) Examine the advantages and disadvantages of using Visual Components 4.0 or similar simulation software for the digital twin.
+**b)** Examine the advantages and disadvantages of using Visual Components 4.0 or similar simulation software 
+   for the digital twin.
 
-c) Use Visual Components 4.0 or similar simulation software to model and simulate the robot cell at the institute.
+**c)** Use Visual Components 4.0 or similar simulation software to model and simulate the robot cell at the institute.
 
-d) Examine the advantages and disadvantages of using KUKAVARPROXY and KUKA RSI Ethernet as middleware between the KUKA KR C4 robot controllers and the digital twin.
+**d)** Examine the advantages and disadvantages of using KUKAVARPROXY and KUKA RSI Ethernet as middleware 
+   between the KUKA KR C4 robot controllers and the digital twin.
 
-e) Present a solution for a digital twin of the Institute's Robot Laboratory with use of OPC UA for communication.
+**e)** Present a solution for a digital twin of the Institute's Robot Laboratory with use of OPC UA for communication.
 
-f) Try out the system in a fixed case. Evaluate the results.
+**f)** Try out the system in a fixed case. Evaluate the results.
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
 
