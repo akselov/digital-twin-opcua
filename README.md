@@ -32,7 +32,7 @@ https://youtu.be/xlQhQPmJwlA
 - [ ] Remove lag in control of robots through VC 4.0 using KVP
 - [ ] Development of an OPC UA server controlling robots through VC 4.0 using RSI
 
-For more information about improvements, see project report:
+For more information about improvements, see project report: <br />
 < Link is coming >
 
 ---
