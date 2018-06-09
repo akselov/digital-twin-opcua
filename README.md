@@ -92,21 +92,6 @@ Example of a combined KUKAVARPROXY and RSI communication in Visual Components 4.
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Connected_Variables_VC_4.0.png)
 
-## Communication modules
-
-### KUKAVARPROXY
-Configuration, pic?
-
-### RSI
-Confirguration with use of kinematicks file
-
-## Monitoring robot from VC 4.0
-Through KVP and RSI
-
-## Controlling robot from VC 4.0
-Through KVP
-Could also be done thorugh RSI
-
 ## Acknowledgments
 - OpenShowVar
 - Python-KVP
