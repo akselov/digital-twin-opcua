@@ -82,9 +82,10 @@ It was concluded that OPC UA was a good solution for use in this DTw as it is po
 **Figure 2: Current communication architecture**
 
 ## Python GUI
-Simple GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sensor data and writing data to .csv files.
+GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sensor data and writing data to .csv files.
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/gui_full.png)
+**Figure 3: GUI**
 
 ## Visual Components 4.0 connection
 Example of a combined KUKAVARPROXY (KVP) and RSI connection in Visual Components 4.0.
