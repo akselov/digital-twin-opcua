@@ -76,7 +76,7 @@ https://youtu.be/xlQhQPmJwlA
 It was concluded that OPC UA was a good solution for use in this DTw as it is possible to implement on any platform, and is enabling a more flexible and structured way of communicating than traditional communication software used in client/server based systems. The benefits found with the use of the DTw in this automated robotic system included visibility to operations and a better foundation for statistical analysis to predict future states and for optimizing characteristic parameters associated with the robot cell. Finally, it was concluded that the DTw act as a good foundation for managing a complex system, something that could be beneficial as this specific system is used in training and professional development at the institute.
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
-align:center"**Figure 1**"
+<br />**Figure 1**
 
 ## Communication
 
