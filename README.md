@@ -82,8 +82,10 @@ It was concluded that OPC UA was a good solution for use in this DTw as it is po
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
 <br />**Figure 1: Robot cell, physical and digital**
 
+
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/InformationFlow.png)
 **Figure 2: Current communication architecture**
+
 
 ## Python GUI
 GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sensor data and writing data to .csv files.
