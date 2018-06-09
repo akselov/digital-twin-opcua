@@ -49,7 +49,7 @@ In this task, implementation of a digital twin will be studied. A solution must 
 **b)** Examine the advantages and disadvantages of using Visual Components 4.0 or similar simulation software <br />
    for the digital twin.
 
-**c)** Use Visual Components 4.0 or similar simulation software to model and simulate the robot cell at the institute.
+**c)** Use Visual Components 4.0 or similar simulation software to model and simulate the robot cell at the Institute.
 
 **d)** Examine the advantages and disadvantages of using KUKAVARPROXY and KUKA RSI Ethernet as middleware <br />
    between the KUKA KR C4 robot controllers and the digital twin.
@@ -88,9 +88,9 @@ GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sens
 **Figure 3: GUI**
 
 ## Visual Components 4.0 connection
-Example of a combined KUKAVARPROXY (KVP) and RSI connection in Visual Components 4.0.
+Example of a combined KUKAVARPROXY and RSI communication in Visual Components 4.0
 
-![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Connected_Variables_VC4.0.png)
+![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Connected_Variables_VC_4.0.png)
 
 ## Communication modules
 
