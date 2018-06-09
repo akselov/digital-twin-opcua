@@ -1,6 +1,8 @@
 # Digital Twin with OPC UA
 This repository contains files used in the development of a digital twin (DTw) for a robot cell at NTNU with the use of Visual Components 4.0 (VC 4.0) and OPC UA.
 
+Project report: < Link is coming >
+
 ## Result
 The system currently cointains the following functionality:
 1. Programming, planning and control in VC 4.0
