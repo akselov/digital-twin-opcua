@@ -45,17 +45,12 @@ OPC Unified Architecture (OPC UA) is a platform-independent protocol for machine
 In this task, implementation of a digital twin will be studied. A solution must be developed that provides seamless communication between robots, PLSs, and other relevant control systems that can be part of an industrial production system, linked to one digital representation of the system. The system must be tested at the institute Robot Laboratory.
 
 **a)** Describe how a digital twin can be implemented using OPC UA.
-
 **b)** Examine the advantages and disadvantages of using Visual Components 4.0 or similar simulation software <br />
    for the digital twin.
-
 **c)** Use Visual Components 4.0 or similar simulation software to model and simulate the robot cell at the Institute.
-
 **d)** Examine the advantages and disadvantages of using KUKAVARPROXY and KUKA RSI Ethernet as middleware <br />
    between the KUKA KR C4 robot controllers and the digital twin.
-
 **e)** Present a solution for a digital twin of the Institute's Robot Laboratory with use of OPC UA for communication.
-
 **f)** Try out the system in a fixed case. Evaluate the results.
 
 ## Abstract
@@ -87,8 +82,13 @@ GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sens
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/gui_full.png)
 **Figure 3: GUI**
 
-## Visual Components 4.0 connection
-Example of a combined KUKAVARPROXY and RSI communication in Visual Components 4.0
+## Visual Components 4.0
+This library contains two files of the robot cell from VC 4.0
+1. Robot_Cell_MTP.vcmx, Version compatible with all servers developed, <br />
+including one example OPC UA client set up for controlling the KUKA KR 16-2 from VC 4.0
+2. Robot_Cell_MTP_case.vcmx, Version used in the fixed case, including two OPC UA clients set up. <br />
+One for controlling the KUKA KR 120 R2500 from VC 4.0, and one for extracting the axis variables <br />
+from the KUKA KR 16-2 and mirror its movements in VC 4.0.
 
 ![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Connected_Variables_VC_4.0.png)
 
