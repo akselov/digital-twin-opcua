@@ -32,9 +32,7 @@ https://youtu.be/xlQhQPmJwlA
 - [ ] Avoid middleware between PC running VC 4.0 and KR C4 robot controllers
 - [ ] Remove lag in control of robots through VC 4.0 using KVP
 - [ ] Development of an OPC UA server controlling robots through VC 4.0, using RSI
-- [ ] Include the RSI modules in GUI
-- [ ] Move plotting of data from middleware to VC 4.0
-- [ ] Include camera stream in VC 4.0
+- [ ] Move plotting of data, and camera stream, from middleware to VC 4.0
 - [ ] Develop a more accurate calibrated model of the robot cell
 - [ ] Gather all functionalities in one server
 - [ ] Add sharing of sensor data to online databases
