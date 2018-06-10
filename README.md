@@ -28,11 +28,14 @@ It was done a fixed case with camera tracking to illustrate some of the function
 https://youtu.be/xlQhQPmJwlA
 
 ## Needs improvement
-- [ ] Gather all functionalities in one server
 - [ ] MDA approach to OPC UA information model design
 - [ ] Avoid middleware between PC running VC 4.0 and KR C4 robot controllers
 - [ ] Remove lag in control of robots through VC 4.0 using KVP
-- [ ] Development of an OPC UA server controlling robots through VC 4.0 using RSI
+- [ ] Development of an OPC UA server controlling robots through VC 4.0, using RSI
+- [ ] Include the RSI modules in GUI
+- [ ] Move plotting of data from middleware to VC 4.0
+- [ ] Include camera stream in VC 4.0
+- [ ] Gather all functionalities in one server
 
 For more information about improvements, see the project report section 5.1.2: <br />
 < Link is coming >
