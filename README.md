@@ -35,7 +35,9 @@ https://youtu.be/xlQhQPmJwlA
 - [ ] Include the RSI modules in GUI
 - [ ] Move plotting of data from middleware to VC 4.0
 - [ ] Include camera stream in VC 4.0
+- [ ] Develop a more accurate calibrated model of the robot cell
 - [ ] Gather all functionalities in one server
+- [ ] Add sharing of sensor data to online databases
 
 For more information about improvements, see the project report section 5.1.2: <br />
 < Link is coming >
