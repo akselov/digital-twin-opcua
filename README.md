@@ -4,7 +4,7 @@ This repository contains files used in the development of a digital twin (DTw) f
 **Project report:** < Link is coming >
 
 ## Result
-The system currently cointains the following functionality:
+The system currently contains the following functionality:
 1. Programming, planning and control in VC 4.0
 2. Mirror movements of physical robot cell in real-time using KUKAVARPROXY (KVP), <br />
 average read time **8.75ms**
@@ -40,7 +40,7 @@ For more information about improvements, see the project report section 5.1.2: <
 ---
 
 ## About Project
-This project was initited by the Norwegian Univeristy of Science and Technology (NTNU), department of Production Technology. The aim of the project was the following:
+This project was initiated by the Norwegian University of Science and Technology (NTNU), Department of Production Technology. The aim of the project was the following:
 
 In order to respond quickly to unexpected events and new demands without extensive system changes, future production systems must be able to work more independently. There is a need for intelligent machines that perform complex tasks without detailed programming and without human interaction. Autonomous systems know their own abilities (which are modeled as "skills") and their state. They are able to choose between a set of possible actions, orchestrating and perform their skills. To succeed, the autonomous systems need to have realistic models of the current state of the production process and the system's own behaviour in interaction with its external environment - usually called a digital twin. 
 
@@ -63,7 +63,7 @@ In this task, implementation of a digital twin will be studied. A solution must 
 **f)** Try out the system in a fixed case. Evaluate the results.
 
 ## Abstract
-This project explores the term Industry 4.0 (I 4.0) and the use of Digital Twins (DTws) as an asset in this modern industrial revolution. A DTw can be described as a digital replica of a physical asset including data about this assets interaction with its environment. The goal of this project has been to develop a DTw for a robot cell at MTP Valgrinda, NTNU, and investigate what benefits could be gained from introducing this technology in this system and in the domain of automated robotic systems in general. 
+This project explores the term Industry 4.0 (I 4.0) and the use of Digital Twins (DTws) as an asset in this modern industrial revolution. A DTw can be described as a digital replica of a physical asset including data about this assets interaction with its environment. The goal of this project has been to develop a DTw for a robot cell at MTP Valgrinda, NTNU, and investigate what benefits could be gained from introducing this technology in this system and the domain of automated robotic systems in general. 
 
 The DTw was developed using the OPC UA communication architecture. OPC UA is called the pioneer of I 4.0 as it is a communication architecture aiming at the standardization of communication in industry. Three different visualization software solutions were compared. It was concluded that Visual Components 4.0 (VC 4.0) was the strongest candidate for developing a visual representation of the robot cell. Using VC 4.0 and OPC UA a DTw of the robot cell was created. 
 
