@@ -79,18 +79,18 @@ https://youtu.be/xlQhQPmJwlA
 
 It was concluded that OPC UA was a good solution for use in this DTw as it is possible to implement on any platform, and is enabling a more flexible and structured way of communicating than traditional communication software used in client/server based systems. The benefits found with the use of the DTw in this automated robotic system included visibility to operations and a better foundation for statistical analysis to predict future states and for optimizing characteristic parameters associated with the robot cell. Finally, it was concluded that the DTw act as a good foundation for managing a complex system, something that could be beneficial as this specific system is used in training and professional development at the institute.
 
-![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
+![Figure 1](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/Physical_%26_digital_model.png)
 <br />**Figure 1: Robot cell, physical and digital**
 
 
-![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/InformationFlow.png)
+![Figure 2](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/InformationFlow.png)
 **Figure 2: Current communication architecture**
 
 
 ## Python GUI
 GUI for launching Visual Components 4.0 OPC UA connection, displaying robot sensor data and writing data to .csv files.
 
-![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/gui_full.png)
+![Figure 3](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/gui_full.png)
 **Figure 3: GUI**
 
 ## Visual Components 4.0
@@ -101,7 +101,7 @@ including one example OPC UA client set up for controlling the KUKA KR 16-2 from
 One for controlling the KUKA KR 120 R2500 from VC 4.0, and one for extracting the axis variables <br />
 from the KUKA KR 16-2 and mirror its movements in VC 4.0.
 
-![alt text](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/VCmodel.png)
+![Figure 4](https://github.com/akselov/digital-twin-opcua/blob/master/pictures/VCmodel.png)
 **Figure 4: Screenshot from VC 4.0**
 
 ## Acknowledgments
