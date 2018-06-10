@@ -110,3 +110,4 @@ The software developed in this project is based on work by:
 - Mechatronics Lab at AAlesund University College (https://github.com/aauc-mechlab/JOpenShowVar)
 - Ahmad Saeed (https://github.com/akselov/kukavarproxy-msg-format)
 - Olivier Roulet-Dubonnet (https://github.com/FreeOpcUa)
+- Torstein Anderssen Myhre (https://github.com/torstem/examplecode-kukarsi-python)
