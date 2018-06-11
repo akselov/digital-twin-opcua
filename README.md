@@ -11,10 +11,10 @@ average read time 8.75ms
 3. Mirror movements of physical robot cell in real-time using RSI, <br />
 average read time 4.00ms
 4. Plot sensor data for every KUKA robot:
-   * Velocity of the motor controlling all axes
-   * Torque on the motor controlling all axes
-   * Current to the motor controlling all axes
-   * Temperature of the motor controlling all axes
+   * Velocity of the motors controlling all axes
+   * Torque on the motors controlling all axes
+   * Current to the motors controlling all axes
+   * Temperature of the motors controlling all axes
 5. Write sensor data for every KUKA robot to .csv files:
    * Velocity to file
    * Torque to file
