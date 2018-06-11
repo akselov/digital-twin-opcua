@@ -7,14 +7,14 @@ This repository contains files used in the development of a digital twin (DTw) f
 The system currently contains the following functionality:
 1. Programming, planning and control in VC 4.0
 2. Mirror movements of physical robot cell in real-time using KUKAVARPROXY (KVP), <br />
-average read time **8.75ms**
+average read time 8.75ms
 3. Mirror movements of physical robot cell in real-time using RSI, <br />
-average read time **4.00ms**
+average read time 4.00ms
 4. Plot sensor data for every KUKA robot:
-   * Velocity of the motor controlling axis X
-   * Torque on the motor controlling axis X
-   * Current to the motor controlling axis X
-   * Temperature of the motor controlling axis X
+   * Velocity of the motor controlling all axes
+   * Torque on the motor controlling all axes
+   * Current to the motor controlling all axes
+   * Temperature of the motor controlling all axes
 5. Write sensor data for every KUKA robot to .csv files:
    * Velocity to file
    * Torque to file
