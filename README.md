@@ -1,7 +1,7 @@
 # Digital Twin with OPC UA
 This repository contains files used in the development of a digital twin (DTw) for a robot cell at NTNU with the use of Visual Components 4.0 (VC 4.0) and OPC UA.
 
-**Project report:** https://brage.bibsys.no/xmlui/handle/11250/2561319
+**Project report:** http://hdl.handle.net/11250/2561319
 
 ## Result
 The system currently contains the following functionality:
@@ -38,7 +38,7 @@ https://youtu.be/xlQhQPmJwlA
 - [ ] Add sharing of sensor data to online databases
 
 For more information about improvements, see the project report section 5.1.2: <br />
-https://brage.bibsys.no/xmlui/handle/11250/2561319
+http://hdl.handle.net/11250/2561319
 
 ---
 
