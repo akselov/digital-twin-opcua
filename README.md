@@ -2,6 +2,7 @@
 This repository contains files used in the development of a digital twin (DTw) for a robot cell at NTNU with the use of Visual Components 4.0 (VC 4.0) and OPC UA.
 
 **Master's Thesis:** http://hdl.handle.net/11250/2561319
+
 **Grade:** A
 
 ## Result
